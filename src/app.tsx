@@ -1,7 +1,11 @@
-import { Text } from 'ink'
+import { Text, Box } from 'ink'
+import Menu from "./components/Menu";
 
 function App() {
-    return <Text color="green">gitproblem</Text>
+    return <Box flexDirection="column">
+        <Text color="green">  gitproblem</Text>
+        <Menu />
+    </Box>
 }
 
 export default App
